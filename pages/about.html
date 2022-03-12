@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Static Website Project</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <section class="about-header">
+      <nav>
+        <a href="index.html"
+          ><img class="logo-pic" src="../images/logo.png" alt="Logo Picture"
+        /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="../index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="services.html">SERVICES</a></li>
+            <li><a href="contactus.html">CONTACT US</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>About Us</h1>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-us">
+      <div class="about-row">
+        <div class="about-col">
+          <h1>Quality is our priority</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum
+            temporibus quo nulla nesciunt, voluptates adipisci laborum
+            repellendus sapiente perspiciatis! Tempora voluptates voluptatum,
+            dolorum quam culpa necessitatibus dolor voluptatibus dolore eius.
+            repellendus sapiente perspiciatis! Tempora voluptates voluptatum,
+            dolorum quam culpa necessitatibus dolor voluptatibus dolore eius.
+          </p>
+          <a href="#" class="hero-btn about-btn">LEARN MORE</a>
+        </div>
+        <div class="about-col">
+          <img src="../images/service1.png" alt="Cleaning Service" />
+        </div>
+      </div>
+    </section>
+    <!-- Shop Location Section -->
+    <section class="shop">
+      <h1>Our Shop Location</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita</p>
+      <div class="shop-row">
+        <div class="shop-column">
+          <h3>MANILA</h3>
+        </div>
+        <div class="shop-column">
+          <h3>RIZAL</h3>
+        </div>
+        <div class="shop-column">
+          <h3>PASIG</h3>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>Made by Justin Jurolan. All images/sources are from the Internet.</p>
+    </footer>
+
+    <!-- Added JS for Toggle Menu -->
+    <script>
+      let navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
