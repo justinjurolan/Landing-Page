@@ -77,11 +77,11 @@ nav img {
   background: transparent;
   position: relative;
   cursor: pointer;
+  transition: 0.5s;
 }
 .hero-btn:hover {
   border: 1px solid #be3144;
   background: #be3144;
-  transition: 0.5s;
 }
 nav .fa {
   display: none;
@@ -272,9 +272,10 @@ h3 {
   cursor: pointer;
   padding: 18px 0;
   font-size: 20px;
+  transition: 0.3s;
 }
 .icons .fa:hover {
-  font-size: 25px;
+  transform: scale(1.5);
 }
 
 /* About Section */
