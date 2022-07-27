@@ -8,7 +8,7 @@ My first project right after learning HTML and CSS. It was inspired by our famil
 
 ## Installation
 ```diff
-+ git clone https://github.com/justinjurolan/Landing-Page.git
+git clone https://github.com/justinjurolan/Landing-Page.git
 ```
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
